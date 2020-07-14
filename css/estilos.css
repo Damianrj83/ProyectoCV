@@ -90,13 +90,16 @@ footer {
 }
 
 .section__txt {
-  font-size: 15px;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  font-family: cursive;
 }
 
 .section_img {
   height: 100px;
   width: 100px;
-  margin: 100px;
+  margin: 80px;
 }
 
 .sectionSkills {
@@ -107,5 +110,4 @@ footer {
 .footer .footer__img {
   display: flex;
   flex-direction: row;
-  flex-basis: auto;
 }
