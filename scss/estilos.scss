@@ -92,6 +92,19 @@ clip-path: circle(130% at 100% 0);
 .section_img{
  height: 100px;
  width: 100px;
- justify-content: space-around;
+ margin: 100px;
+}
 
+.sectionSkills{
+  display: flex;
+ flex-direction: row;
+}
+
+.footer{
+
+ .footer__img{
+   display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+ }
 }
