@@ -1,0 +1,93 @@
+@import 'variables';
+@import 'reset';
+@import 'font';
+
+@mixin funcion($propiedad){
+  @if($propiedad == 'profile'){
+    
+    height: $tamano1;
+  } @else if ($propiedad == 'skills') {
+    height: $tamano1;
+    background-color: $color-celeste;
+  } @else if ($propiedad == 'contact') {
+    background-color: $color-black;
+    height: $tamano1;
+  }
+
+}
+
+.sectionProfile {
+ @include funcion('profile');
+}
+
+.sectionSkills {
+  @include funcion('skills');
+}
+
+.sectionContact {
+  @include funcion('contact');
+}
+
+.sectionContact {
+  @include funcion('cv');
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: $height;
+  background-color: white;
+  border-width: medium;
+  font-style: 50px;
+}
+
+
+.nav__list{
+  flex-direction: row;
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  text-align: left;
+  margin-right: 800px;
+}
+
+.sectionProfile{
+ display: grid;
+ grid-template-columns: $grid-size $grid-size;
+  article{
+    padding: 1em;
+  }
+}
+
+footer{
+  height: 200px;
+  background-color: #545353;
+  border: 2px solid #545353;
+  border-radius: 20px 20px;
+  justify-content: center;
+}
+
+.nav__link:hover{
+transition: 3s;
+-webkit-clip-path: circle(10% at 100% 0);
+clip-path: circle(50% at 100% 0);
+clip-path: circle(80% at 100% 0);
+clip-path: circle(100% at 100% 0);
+clip-path: circle(130% at 100% 0);
+
+
+
+
+
+
+
+  background-color: orange;
+
+}
+
+.uno{
+  -webkit-clip-path: circle(10% at 100% 0);
+  clip-path: circle(10% at 100% 0);
+  background-color: orange;
+
+}
