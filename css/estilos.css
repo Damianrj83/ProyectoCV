@@ -65,10 +65,6 @@ footer p {
   grid-template-columns: 50% 50%;
 }
 
-.sectionProfile article {
-  padding: 1em;
-}
-
 footer {
   height: 200px;
   background-color: #545353;
@@ -91,4 +87,14 @@ footer {
   -webkit-clip-path: circle(10% at 100% 0);
   clip-path: circle(10% at 100% 0);
   background-color: orange;
+}
+
+.section__txt {
+  font-size: 15px;
+}
+
+.section_img {
+  height: 100px;
+  width: 100px;
+  justify-content: space-around;
 }
